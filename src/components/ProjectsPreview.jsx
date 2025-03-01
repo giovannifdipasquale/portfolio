@@ -31,7 +31,7 @@ export const ProjectsPreview = (props) => {
         </div>
         <div>
           <p className="px-3">
-            <i className="bi bi-brush me-2 text-light"></i>
+            <i className="bi bi-palette me-2 text-light"></i>
             <a
               href="https://github.com/giovannifdipasquale/artstore-frontend"
               target="_blank"
@@ -64,7 +64,7 @@ export const ProjectsPreview = (props) => {
         </div>
         <div>
           <p className="px-3">
-            <i className="bi bi-robot me-2 text-light"></i>
+            <i className="bi bi-stars me-2 text-light"></i>
             <a
               href="https://github.com/giovannifdipasquale/ai-sentiment-analyzer"
               target="_blank"
