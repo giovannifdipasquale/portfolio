@@ -1,0 +1,203 @@
+/* ==================== */
+/* ROOT VARIABLES       */
+/* ==================== */
+
+:root {
+  --dark-text: rgba(72, 50, 47, 0.9);
+  /* Dark color (Text or details) */
+  --dark-background: rgb(154, 92, 92);
+  /* Dark background */
+  --light-background: rgb(222, 219, 198);
+  /* Light background */
+}
+
+/* ==================== */
+/* GENERAL STYLES       */
+/* ==================== */
+
+body {
+
+  /* Prevent horizontal scrolling */
+  font-family: "Courier Prime", monospace;
+  background-color: var(--light-background);
+  color: var(--dark-text);
+}
+
+/* ==================== */
+/* FONTS CONFIGURATION  */
+/* ==================== */
+
+.geologica {
+  font-family: "Geologica", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0,
+    "SHRP" 0;
+}
+
+/* ==================== */
+/* DROPDOWN MENU        */
+/* ==================== */
+
+
+
+
+
+/* ==================== */
+/* TYPING EFFECT        */
+/* ==================== */
+
+.typing-container {
+  font-family: 'Courier Prime', monospace;
+  color: var(--dark-text);
+  align-items: center;
+  font-weight: 900;
+}
+
+/* Cursor blinking effect */
+.cursor {
+  width: 10px;
+  height: 23px;
+  position: relative;
+  top: 6px;
+  left: 3px;
+  background-color: var(--dark-text);
+  display: inline-block;
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+}
+
+/* ==================== */
+/* CUSTOM TEXT STYLES   */
+/* ==================== */
+
+.textDark {
+  color: var(--dark-text);
+}
+
+.textLight {
+  color: var(--light-background);
+}
+
+.bgLight {
+  color: var(--light-background);
+}
+
+.bgDark {
+  background-color: var(--dark-background);
+}
+
+/* ==================== */
+/* THEME MODES          */
+/* ==================== */
+
+.dark-mode {
+  background-color: var(--dark-text);
+  color: #fff;
+}
+
+.less-dark-mode {
+  background-color: var(--dark-background);
+  color: var(--light-background);
+}
+
+.light-mode {
+  background-color: var(--light-background);
+  color: #000
+}
+
+/* ==================== */
+/* BORDERS & LINKS      */
+/* ==================== */
+
+.borderDark {
+  border-color: var(--dark-text) !important;
+}
+
+.borderLight {
+  border-color: var(--light-background) !important;
+}
+
+.anchor-class {
+  color: var(--light-background);
+  text-decoration: none;
+}
+
+.anchor-class:hover {
+  text-decoration: underline;
+}
+
+/* ==================== */
+/* MAIN CONTAINER       */
+/* ==================== */
+
+.container-main {
+  border: 1px solid var(--dark-text);
+  margin: 0.5rem;
+  height: 95vh;
+}
+
+/* ==================== */
+/* HORIZONTAL LINE      */
+/* ==================== */
+
+.horizontalLine {
+  width: 60%;
+  margin-left: 20%;
+  height: 1px;
+  background-color: var(--dark-text);
+  opacity: 1.0;
+}
+
+/* ==================== */
+/* LIST ITEMS           */
+/* ==================== */
+
+.list-span {
+  font-family: 'Courier Prime', monospace;
+  font-weight: 500;
+  transition: 0.3s ease-in-out;
+  color: var(--dark-text);
+}
+
+.hovered-list-span {
+  margin-left: 5px;
+  background-color: var(--dark-text);
+
+  color: var(--light-background);
+  cursor: pointer;
+}
+
+.no-underline {
+  text-decoration: none;
+  transition: text-decoration 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.no-underline:hover {
+  text-decoration: underline;
+}
+
+.homeButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  transition: left 0.3s ease-in-out;
+}
+
+.homeButton:hover {
+  left: 5px;
+}
