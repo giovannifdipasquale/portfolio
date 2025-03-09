@@ -77,12 +77,23 @@ export const Contacts = () => {
           <p>
             <i className="fs-5 bi bi-file-earmark-text me-2"></i>
             <a
-              href="/path-to-your-cv.pdf"
+              href="../src/assets/cv_aggiornato.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="anchor-class"
             >
-              Download CV
+              Download Cv IT
+            </a>
+          </p>
+          <p>
+            <i className="fs-5 bi bi-file-earmark-text me-2"></i>
+            <a
+              href="../src/assets/cv_eng_dipasquale.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="anchor-class"
+            >
+              Download Cv EN
             </a>
           </p>
         </div>
