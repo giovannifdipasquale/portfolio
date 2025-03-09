@@ -20,7 +20,7 @@ export const ContactsPreview = (props) => {
           </p>
           <p className="text-light">
             <i className="bi bi-phone me-2"></i>
-            +39 349xxxxxxxxx
+            +39 3493360996
           </p>
         </div>
       </div>
@@ -39,7 +39,7 @@ export const ContactsPreview = (props) => {
               href="https://www.linkedin.com/in/giovannifdipasquale"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-light no-underline"
+              className="text-light no-underline anchor-class"
             >
               linkedin
             </a>
@@ -50,31 +50,9 @@ export const ContactsPreview = (props) => {
               href="https://github.com/giovannifdipasquale"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-light no-underline"
+              className="text-light no-underline anchor-class"
             >
               github
-            </a>
-          </p>
-        </div>
-      </div>
-
-      {/* CV Section */}
-      <div className="cv-div px-5 pt-3 pb-3">
-        <div className="py-1">
-          <h5>
-            <span className="light-mode">My CV</span>
-          </h5>
-        </div>
-        <div>
-          <p className="px-3">
-            <i className="bi bi-file-earmark-text me-2 text-light"></i>
-            <a
-              href="/path-to-your-cv.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-light no-underline"
-            >
-              Download CV
             </a>
           </p>
         </div>

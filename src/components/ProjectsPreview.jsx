@@ -14,7 +14,7 @@ export const ProjectsPreview = (props) => {
               href="https://github.com/giovannifdipasquale"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-light no-underline"
+              className="text-light anchor-class"
             >
               github.com/giovannifdipasquale
             </a>
@@ -36,7 +36,7 @@ export const ProjectsPreview = (props) => {
               href="https://github.com/giovannifdipasquale/artstore-frontend"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-light no-underline"
+              className="text-light anchor-class"
             >
               Art Store
             </a>
@@ -47,7 +47,7 @@ export const ProjectsPreview = (props) => {
               href="https://github.com/giovannifdipasquale/weather_fetch"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-light no-underline"
+              className="text-light anchor-class"
             >
               Weather Fetch
             </a>
@@ -69,7 +69,7 @@ export const ProjectsPreview = (props) => {
               href="https://github.com/giovannifdipasquale/ai-sentiment-analyzer"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-light no-underline"
+              className="text-light anchor-class"
             >
               AI Sentiment Analysis
             </a>
@@ -80,7 +80,7 @@ export const ProjectsPreview = (props) => {
               href="https://github.com/giovannifdipasquale/presto.it_project"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-light no-underline"
+              className="text-light anchor-class"
             >
               Presto.it Project
             </a>

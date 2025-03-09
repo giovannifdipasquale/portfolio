@@ -134,10 +134,13 @@ body {
 .anchor-class {
   color: var(--light-background);
   text-decoration: none;
+  transition: 0.3s ease-in-out;
+  display: inline-block;
 }
 
 .anchor-class:hover {
   text-decoration: underline;
+  transform: translateX(5px);
 }
 
 /* ==================== */
@@ -169,25 +172,15 @@ body {
 .list-span {
   font-family: 'Courier Prime', monospace;
   font-weight: 500;
-  transition: 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   color: var(--dark-text);
 }
 
 .hovered-list-span {
   margin-left: 5px;
   background-color: var(--dark-text);
-
   color: var(--light-background);
   cursor: pointer;
-}
-
-.no-underline {
-  text-decoration: none;
-  transition: text-decoration 0.3s ease-in-out, color 0.3s ease-in-out;
-}
-
-.no-underline:hover {
-  text-decoration: underline;
 }
 
 .homeButton {
@@ -195,9 +188,4 @@ body {
   top: 0;
   left: 0;
   padding: 10px;
-  transition: left 0.3s ease-in-out;
-}
-
-.homeButton:hover {
-  left: 5px;
 }

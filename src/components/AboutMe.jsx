@@ -21,13 +21,8 @@ export const AboutMe = ({ visibility }) => {
               PHP, Laravel, MySQL, HTML, CSS, JavaScript, and React
             </strong>
             . Focused on building{" "}
-            <strong>responsive and user-friendly web applications</strong>
+            <strong>responsive and user-friendly web applications </strong>
             with modern design and optimal user experience.
-          </p>
-          <p>
-            Experienced in <strong>fast-paced, dynamic environments</strong>,
-            allowing me to sharpen my <strong>problem-solving</strong> skills,
-            adaptability, and time management.
           </p>
         </div>
       </div>
@@ -70,7 +65,7 @@ export const AboutMe = ({ visibility }) => {
           </p>
           <p>
             <i className="fs-5 bi bi-telephone me-2"></i>
-            <strong>Phone:</strong> +39 123 456 7890
+            <strong>Phone:</strong> +39 3493360996
           </p>
           <p>
             <i className="fs-5 bi bi-geo-alt me-2"></i>

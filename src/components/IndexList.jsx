@@ -67,9 +67,7 @@ export const IndexList = () => {
                 onMouseEnter={updateVisibility1}
               >
                 <a
-                  className={`no-underline ${
-                    visibility1 ? "text-light" : "text-dark"
-                  }`}
+                  className={` ${visibility1 ? "text-light" : "text-dark"}`}
                   href="/projects"
                 >
                   {" "}

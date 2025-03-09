@@ -12,15 +12,8 @@ export const AboutMePreview = ({ visibility }) => {
       <div className="py-3 border-start border-bottom borderLight">
         <div className="px-3 ">
           <p>
-            My goal is building
-            <strong>
-              <ul className="ms-4 mt-2 list-unstyled">
-                <li> responsive </li>
-                <li> user-friendly </li>
-                <li> scalable and secure </li>
-              </ul>{" "}
-            </strong>
-            web applications{" "}
+            I strive to build intuitive, well-designed, and scalable web
+            applications for the world to enjoy
           </p>
         </div>
       </div>

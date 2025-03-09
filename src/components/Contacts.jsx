@@ -24,7 +24,7 @@ export const Contacts = () => {
           </p>
           <p>
             <i className="fs-5 bi bi-telephone me-2"></i>
-            <strong>Phone:</strong> +39 123 456 7890
+            <strong>Phone:</strong> +39 3493360996
           </p>
           <p>
             <i className="fs-5 bi bi-geo-alt me-2"></i>
