@@ -55,7 +55,7 @@ export const AboutMePreview = ({ visibility }) => {
           <i className="fs-4 bi bi-file-earmark-text me-2"></i>
           Download my
           <a
-            href="../src/assets/cv_aggiornato.pdf"
+            href="/cv_aggiornato.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-info ms-1"
